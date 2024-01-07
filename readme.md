@@ -1,6 +1,6 @@
-# Music-Downloader
+# Music Downloader
 
-Download songs complete with metadata, including cover art, song name, and artist information. You can achieve this by providing a YouTube URL, specifying the artist and song name, or sharing a song for which you want metadata added. Additionally, use music recognition to download unidentified songs.
+Effortlessly download songs with complete metadata, encompassing cover art, song name, and artist information. This tool empowers users to acquire music from diverse sources, offering the flexibility of inputting a YouTube URL, specifying the artist and song name, or providing a song for which metadata needs augmentation. Additionally, leverage music recognition to download unidentified songs seamlessly.
 
 ## Table of Contents
 
@@ -12,20 +12,33 @@ Download songs complete with metadata, including cover art, song name, and artis
 
 ## Getting Started
 
-
 ### Prerequisites
 
-Install docker. Details on how to install docker on your machine can be found on https://www.docker.com/get-started/ . Creat a [spotify](https://developer.spotify.com/),[last_fm](https://www.last.fm/api),[genius](https://docs.genius.com/),[serper](https://serper.dev/),[youtube](https://developers.google.com/youtube/v3) account for the api key .
+Ensure Docker is installed on your machine. If not, refer to the [official Docker installation guide](https://www.docker.com/get-started/). Create accounts for the following services to obtain the required API keys:
+
+- [Spotify Developer](https://developer.spotify.com/)
+- [Last.fm API](https://www.last.fm/api)
+- [Genius](https://docs.genius.com/)
+- [Serper](https://serper.dev/)
+- [YouTube API](https://developers.google.com/youtube/v3)
 
 ### Installation 
 
-After installation and setting up docker. First you have to build your docker image. Do this by running   "docker build -t music-downloader ."  on your terminal. Then you need to run your docker container by running the command  "docker run -it  music-downloader 
-" on your terminal.
+After installing Docker and acquiring the necessary API keys:
+
+1. Build your Docker image using the following command in your terminal:
+   ```bash
+   docker build -t music-downloader .
+   ```
+  Then you need to run your docker container by running the command  
+  ```bash
+  docker run -it  music-downloader 
+  ```
 
 ## License
 
-MIT License
+This project is licensed under the [MIT License]()
 
 ## Acknowledgments
-The code for the music generation  can be found on https://github.com/MartinWeiss01/shazam-cli-py 
+The code for the music generation  can be found [here](https://github.com/MartinWeiss01/shazam-cli-py) 
 
