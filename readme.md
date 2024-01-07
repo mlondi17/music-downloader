@@ -15,7 +15,7 @@ Download songs complete with metadata, including cover art, song name, and artis
 
 ### Prerequisites
 
-Install docker. Details on how to install docker on your machine can be found on https://www.docker.com/get-started/ 
+Install docker. Details on how to install docker on your machine can be found on https://www.docker.com/get-started/ . Creat a [spotify](https://developer.spotify.com/),[last_fm](https://www.last.fm/api),[genius](https://docs.genius.com/),[serper](https://serper.dev/),[youtube](https://developers.google.com/youtube/v3) account for the api key .
 
 ### Installation 
 
